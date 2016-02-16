@@ -14,7 +14,7 @@ body {
 
 hr {
     border-color: @theme-primary;
-    border-width: 3px;
+    border-width: 7px;
     max-width: 50px;
 }
 
@@ -41,7 +41,7 @@ h6 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;    // was 15px
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -94,7 +94,7 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: 13px;
+                font-size: 15px; // was 13px
                 color: @theme-dark;
                 &:hover {
                     color: @theme-primary;
@@ -170,7 +170,7 @@ header {
         .header-content-inner {
             h1 {
                 font-weight: 700;
-                text-transform: uppercase;
+                // text-transform: uppercase;   // sjg removed
                 margin-top: 0;
                 margin-bottom: 0;
             }
@@ -180,7 +180,7 @@ header {
             p {
                 font-weight: 300;
                 color: fade(white, 70%);
-                font-size: 16px;
+                font-size: 18px;    // was 16px
                 margin-bottom: 50px;
             }
         }
@@ -199,7 +199,7 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 p {
-                    font-size: 18px;
+                    font-size: 20px;    // was 18px
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
@@ -210,6 +210,8 @@ header {
 }
 
 // Sections
+
+h2.section-heading { font-size: 36px; } // added sjg
 
 .section-heading {
     margin-top: 0;
@@ -256,10 +258,10 @@ header {
             .project-category {
                 text-transform: uppercase;
                 font-weight: 600;
-                font-size: 14px;
+                font-size: 16px;    // was 14px
             }
             .project-name {
-                font-size: 18px;
+                font-size: 20px;    // was 18px
             }
         }
     }
@@ -272,10 +274,10 @@ header {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
-                    font-size: 16px;
+                    font-size: 18px;    // was 16px
                 }
                 .project-name {
-                    font-size: 22px;
+                    font-size: 24px;    // was 22px
                 }
             }
         }
@@ -317,6 +319,7 @@ header {
 
 .btn-xl {
     padding: 15px 30px;
+    font-size: 16px;    // added sjg
 }
 
 // Extras
