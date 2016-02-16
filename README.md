@@ -2,6 +2,12 @@
 
 [Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
+## Before you begin 
+Get nodejs, npm, grunt, and related packages loaded and running. 
+
+## Hacked version 
+Now using a slightly different look and feel, minor changes so far, font, font sizes, some colors.
+
 ## Getting Started
 
 To begin using this template, choose one of the following options to get started:
